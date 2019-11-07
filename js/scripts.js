@@ -33,3 +33,13 @@ var number1 = parseInt(prompt("Enter a number:"));
 var number2 = parseInt(prompt("Enter another number:"));
 
 alert(divide(number1, number2));
+
+
+
+var height = parseInt(prompt("what is your height in inches?"))
+var weight = parseInt(prompt("what is your weight in lbs?"))
+
+var result = function(whatToSay) {
+return  weight / height
+}
+alert(result)
