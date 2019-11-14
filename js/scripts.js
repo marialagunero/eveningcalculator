@@ -40,6 +40,6 @@ var bmi = function(weight,height) {
 };
 
 var weight = parseInt(prompt("What is your weight?"));
-var height = parseInt(prompt("What is your heght?"));
+var height = parseInt(prompt("What is your height?"));
 var result = bmi(weight,height);
 alert(result);
